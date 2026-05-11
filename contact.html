@@ -4,8 +4,8 @@
   <link rel="stylesheet" href="style.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Resources page for web development project">
-  <title>Resources</title>
+  <meta name="description" content="Contact page for web development project">
+  <title>Contact</title>
 </head>
 
 <body>
@@ -23,13 +23,14 @@
 </header>
 
 <main>
-  <h2>Helpful Resources</h2>
+  <h2>Contact Form</h2>
 
-  <ul>
-    <li><a href="https://developer.mozilla.org/" target="_blank">MDN Web Docs</a></li>
-    <li><a href="https://www.w3schools.com/" target="_blank">W3Schools</a></li>
-    <li><a href="https://github.com/" target="_blank">GitHub</a></li>
-  </ul>
+  <form onsubmit="alert('Form submitted successfully!'); return false;">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name"><br><br>
+
+    <button type="submit">Submit</button>
+  </form>
 </main>
 
 <footer>
